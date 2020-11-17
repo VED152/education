@@ -1,0 +1,80 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo
+{
+    
+   
+    width: 150px;
+    height :auto;
+}
+body
+{
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+    
+    
+    font-family: sans-serif;
+}
+.menu
+{
+    background: lightcoral;
+    text-align: center;
+}
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: lightgoldenrodyellow;
+}
+.menu ul li
+{
+    width: 120px;
+    margin: 20px;
+    padding: 20px
+
+}
+.menu UL li a
+{
+    text-decoration: none;
+    color: lightgoldenrodyellow ;
+}
+.ACTIVE, .menu UL li:hover
+{
+    background: turquoise;
+    border-radius: 4px;
+}
+.menu .fa
+{
+    margin-right: 8px;
+}
+ 
+.submenu1{
+    display: none;
+}
+
+
+.menu ul li:hover .submenu1
+{
+    display: block;
+    POSITION: ABSOLUTE;
+    background: #a8eb34;
+    
+   
+    
+}
+.menu ul li:hover .submenu1 ul
+{
+    font-size: 15PX;
+    display: block;
+    
+}
+
+
+
+
+
+

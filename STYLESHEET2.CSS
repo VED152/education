@@ -1,0 +1,41 @@
+body
+{
+    background-image: url(download\ \(1\).jpg);
+    background-size: cover;
+    
+    
+    font-family: sans-serif;}
+    .menu
+{
+    background: transparent;
+    text-align: center;
+}
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: lightgoldenrodyellow;
+}
+.menu ul li
+{
+    width: 60px;
+    margin: 5px;
+    padding: 5px
+
+}
+.menu UL li a
+{
+    text-decoration: none;
+    color: lightgoldenrodyellow ;
+}
+.ACTIVE, .menu UL li:hover
+{
+    background: turquoise;
+    border-radius: 2px;
+}
+.menu .fa
+{
+    margin-right: 4px;
+}
+
+
